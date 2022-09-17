@@ -1,0 +1,13 @@
+git init
+git remote -v
+git remote add origin https://github.com/andodeki/hello.git
+git clone https://github.com/andodeki/hello.git
+git status
+git add .
+git commit -m "first commit"
+git push -u origin main
+git checkout main
+git branch main
+git branch -a
+git checkout main
+git push -u origin main

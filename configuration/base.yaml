@@ -1,0 +1,12 @@
+application:
+  port: 3030
+  host: 127.0.0.1
+  name: "hello"
+  hmac_secret: "super-long-and-secret-random-key-needed-to-verify-message-integrity"
+database:
+  host: "127.0.0.1"
+  port: 5432
+  username: "postgres"
+  password: "password"
+  database_name: "newsletter"
+  require_ssl: false
